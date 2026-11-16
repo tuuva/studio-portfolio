@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="STUDIO. – selkeää verkkosuunnittelua, modernia digitaalista ilmettä ja harkittuja verkkosivuratkaisuja.">
+  <meta name="theme-color" content="#0c0d12">
+  <title>STUDIO. | Web Design & Digital Experiences</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#sisalto">Siirry sisältöön</a>
+
+  <header class="site-header" id="sivun-alku">
+    <div class="container navbar">
+      <a href="#etusivu" class="logo" aria-label="STUDIO. – etusivulle">STUDIO<span>.</span></a>
+
+      <button class="menu-toggle" type="button" aria-controls="nav-links" aria-expanded="false" aria-label="Avaa valikko" hidden>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-links" id="nav-links" aria-label="Päävalikko">
+        <a href="#etusivu" aria-current="location">Etusivu</a>
+        <a href="#palvelut">Palvelut</a>
+        <a href="#projektit">Projektit</a>
+        <a href="#yhteys" class="nav-contact">Ota yhteyttä</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="sisalto">
+    <section id="etusivu" class="hero container" aria-labelledby="hero-otsikko">
+      <div class="hero-teksti reveal">
+        <p class="ylateksti"><span class="ylateksti-viiva" aria-hidden="true"></span>DIGITAALISTA SUUNNITTELUA</p>
+        <h1 id="hero-otsikko">Digitaalisia kokemuksia, jotka <span>erottuvat.</span></h1>
+        <p class="hero-kuvaus">Selkeää verkkosuunnittelua, modernia visuaalisuutta ja toimivia digitaalisia ratkaisuja yritysten tarpeisiin.</p>
+        <div class="hero-painikkeet">
+          <a href="#palvelut" class="painike">Tutustu palveluihin <span aria-hidden="true">↗</span></a>
+          <a href="#yhteys" class="tekstilinkki">Ota yhteyttä <span aria-hidden="true">→</span></a>
+        </div>
+        <p class="hero-alaviite"><span aria-hidden="true">✳</span> DESIGNED WITH INTENTION / 2026</p>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="ATELIER.-konseptisivun visuaalinen esikatselu" role="img">
+        <div class="mock-browser" aria-hidden="true">
+          <div class="mock-browser-top">
+            <div class="mock-dots"><span></span><span></span><span></span></div>
+            <div class="mock-url">atelier.design / concept</div>
+            <span class="mock-browser-icon">↗</span>
+          </div>
+          <div class="mock-page">
+            <div class="mock-page-nav"><span class="mock-brand">ATELIER.</span><div class="mock-page-links"><span>WORK</span><span>ABOUT</span></div></div>
+            <div class="mock-page-hero">
+              <div class="mock-page-copy">
+                <span class="mock-eyebrow">CREATIVE STUDIO / 2026</span>
+                <h2>Beyond the <em>ordinary.</em></h2>
+                <p>Thoughtful design for a world in motion.</p>
+                <span class="mock-cta">Explore work ↗</span>
+              </div>
+              <div class="mock-art"><div class="mock-art-grid"></div><div class="mock-orb"></div><span class="mock-art-tag">FORM / 001</span></div>
+            </div>
+            <div class="mock-page-bottom"><span>Independent creative practice</span><span>DESIGN / 2026</span></div>
+          </div>
+        </div>
+        <div class="mock-floating-note" aria-hidden="true"><span class="mock-status"></span> Digital experience <strong>01 / 01</strong></div>
+      </div>
+    </section>
+
+    <div class="container osio-erotin" aria-hidden="true"><span>DESIGN / DEVELOP / REFINE</span><span>↓ SCROLL TO EXPLORE</span></div>
+
+    <section id="palvelut" class="palvelut-osio" aria-labelledby="palvelut-otsikko">
+      <div class="container">
+        <div class="osion-otsikko reveal">
+          <p class="ylateksti">01 / MITÄ TARJOAMME</p>
+          <h2 id="palvelut-otsikko">Ratkaisuja yrityksesi tarpeisiin.</h2>
+          <p>Tavoitteena on yhdistää selkeä käyttökokemus, tunnistettava ilme ja toimiva toteutus.</p>
+        </div>
+        <div class="palvelut">
+          <article class="palvelu reveal">
+            <div class="palvelu-ikoni" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+            <span class="kortti-numero">01 /</span>
+            <h3>Verkkosivut</h3>
+            <p>Modernit, selkeät ja mobiiliystävälliset verkkosivut, joiden käyttäminen tuntuu vaivattomalta.</p>
+            <details class="palvelu-tiedot">
+              <summary>Lue lisää</summary>
+              <div class="lisatiedot">
+                <p>Suunnittelun lähtökohtana ovat yrityksen tavoitteet ja kävijän tarpeet.</p>
+                <ul><li>Yrityksen esittelysivut</li><li>Responsiivinen ulkoasu</li><li>Selkeät yhteydenottopolut</li><li>Hakukoneoptimoinnin perusteet</li></ul>
+              </div>
+            </details>
+          </article>
+
+          <article class="palvelu reveal">
+            <div class="palvelu-ikoni" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12l1 14H5L6 7Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg></div>
+            <span class="kortti-numero">02 /</span>
+            <h3>Verkkokaupan ilme</h3>
+            <p>Tuotteiden selkeää esillepanoa sekä verkkokaupan rakenteen ja käyttökokemuksen suunnittelua.</p>
+            <details class="palvelu-tiedot">
+              <summary>Lue lisää</summary>
+              <div class="lisatiedot">
+                <p>Hyvä verkkokaupan käyttöliittymä auttaa asiakasta löytämään etsimänsä.</p>
+                <ul><li>Tuotesivujen ulkoasu</li><li>Kategoriat ja navigaatio</li><li>Ostoskorin käyttöliittymäluonnokset</li><li>Mobiilinäkymien suunnittelu</li></ul>
+              </div>
+            </details>
+          </article>
+
+          <article class="palvelu reveal">
+            <div class="palvelu-ikoni" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.88l.06.06-2.86 2.86-.06-.06A1.7 1.7 0 0 0 15 19.4a1.7 1.7 0 0 0-1.2 1.57V21h-4v-.08A1.7 1.7 0 0 0 8.6 19.4a1.7 1.7 0 0 0-1.88.34l-.06.06L3.8 16.94l.06-.06A1.7 1.7 0 0 0 4.2 15a1.7 1.7 0 0 0-1.57-1.2H2.5v-4h.13A1.7 1.7 0 0 0 4.2 8.6a1.7 1.7 0 0 0-.34-1.88L3.8 6.66 6.66 3.8l.06.06A1.7 1.7 0 0 0 8.6 4.2a1.7 1.7 0 0 0 1.2-1.57V2.5h4v.13A1.7 1.7 0 0 0 15 4.2a1.7 1.7 0 0 0 1.88-.34l.06-.06 2.86 2.86-.06.06A1.7 1.7 0 0 0 19.4 8.6a1.7 1.7 0 0 0 1.57 1.2h.13v4h-.13A1.7 1.7 0 0 0 19.4 15Z"/></svg></div>
+            <span class="kortti-numero">03 /</span>
+            <h3>Ylläpito</h3>
+            <p>Sivuston sisällön, visuaalisen ilmeen ja arjen toimivuuden kehittämistä tarpeen mukaan.</p>
+            <details class="palvelu-tiedot">
+              <summary>Lue lisää</summary>
+              <div class="lisatiedot">
+                <p>Jo pienillä päivityksillä sivusto voidaan pitää ajankohtaisena ja selkeänä.</p>
+                <ul><li>Tekstien ja kuvien päivitykset</li><li>Ulkoasun pienkehitys</li><li>Käyttökokemuksen parannukset</li><li>Toimivuuden tarkistukset</li></ul>
+              </div>
+            </details>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projektit" class="projektit-osio" aria-labelledby="projektit-otsikko">
+      <div class="container">
+        <div class="osion-otsikko reveal">
+          <p class="ylateksti">02 / SELECTED WORK</p>
+          <h2 id="projektit-otsikko">Valikoidut projektit.</h2>
+          <p>Kuratoituja kokeiluja ja digitaalista suunnittelua — ensimmäisenä oma konseptityö.</p>
+        </div>
+        <a href="atelier.html" class="projekti-kortti reveal" aria-label="Avaa ATELIER. – luova verkkosivukonsepti">
+          <div class="projekti-kuva">
+            <div class="projekti-esikatselu" aria-hidden="true">
+              <p class="projekti-logo">ATELIER.</p>
+              <span class="projekti-merkinta">CREATIVE PRACTICE — 2026</span>
+              <h3>Beyond the<br><span>ordinary.</span></h3>
+              <div class="projekti-pallo"></div>
+              <span class="projekti-kuva-alateksti">DESIGN CONCEPT / 001</span>
+            </div>
+          </div>
+          <div class="projekti-tiedot">
+            <div><p class="projekti-kategoria">KONSEPTIPROJEKTI / 001</p><h3>ATELIER. — Creative Studio</h3><p>Web Design / HTML / CSS / Responsive Layout</p></div>
+            <span class="projekti-nuoli" aria-hidden="true">↗</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section id="yhteys" class="yhteys-osio" aria-labelledby="yhteys-otsikko">
+      <div class="container yhteys-laatikko reveal">
+        <div class="yhteys-teksti">
+          <p class="ylateksti">03 / OTA YHTEYTTÄ</p>
+          <h2 id="yhteys-otsikko">Onko sinulla projekti mielessä?</h2>
+          <p>Kerro ideastasi tai kysy lisää. Keskustellaan siitä, miten voisin auttaa.</p>
+          <a class="yhteys-email" href="mailto:tourutuu@gmail.com">tourutuu@gmail.com <span aria-hidden="true">↗</span></a>
+        </div>
+        <a href="mailto:tourutuu@gmail.com?subject=Yhteydenotto%20STUDIO.-sivustolta" class="painike painike-vaalea">Lähetä viesti <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-sisalto">
+      <div><a href="#etusivu" class="logo footer-logo">STUDIO<span>.</span></a><p>Design with intention.</p></div>
+      <div class="footer-oikea"><a href="mailto:tourutuu@gmail.com">Sähköposti ↗</a><a href="#etusivu">Takaisin ylös ↑</a></div>
+    </div>
+    <div class="container footer-ala"><span>© 2026 STUDIO. / Kaikki oikeudet pidätetään.</span><span>Itsenäinen portfolio- ja konseptiprojekti.</span></div>
+  </footer>
+
+  <button class="takaisin-ylos" type="button" aria-label="Takaisin sivun alkuun" title="Takaisin ylös" hidden>↑</button>
+</body>
+</html>
